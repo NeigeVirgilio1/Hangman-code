@@ -38,7 +38,7 @@ namespace Hangman.Core.Game
 
             Random random = new Random();
 
-            string[] Listwords = new string[] { "Company", "words", "love", "computer", "house", "school", "playstore", "playstation", "laptop", "bread", "food", "typing", "reading", "water", "nap", "phone", "paper", "toilet", "table", "pen" };
+            string[] Listwords = new string[] { "Company", "words", "hate", "computer", "house", "university", "address", "playstation", "laptop", "bread", "food", "typing", "reading", "water", "cat", "phone", "paper", "toilet", "table", "pen" };
 
             var index = random.Next(0, 9);
 

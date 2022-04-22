@@ -8,7 +8,7 @@ namespace Hangman.Core.Game
         private GallowsRenderer _renderer;
         private string _guessProgress;
         private int _numberOfLives;
-        private string letter;
+        //private string letter;
         //
         public HangmanGame()
         {
@@ -19,7 +19,6 @@ namespace Hangman.Core.Game
         {
 
             _numberOfLives = 6;
-
 
             _renderer.Render(5, 5, 6);
 
